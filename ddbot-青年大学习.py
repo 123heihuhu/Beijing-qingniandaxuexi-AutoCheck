@@ -42,9 +42,9 @@ str3=""
 '''def Send_DD(note):
     print(note)
     # 初始话DingDingBOt  webhook是钉钉机器人所必须的
-    dd = DingDing(webhook='https://oapi.dingtalk.com/robot/send?access_token=f3e149a75357125b16f85c721cbfc082cbf918eaa6768d0232e6bb0379ab7111')
+    dd = DingDing(webhook='https://oapi.dingtalk.com/robot/send?access_token=f3e149a75357125b16f85c721cbfc082cbf918eaa6768d0232e6')
     # 发送文本消息
-    print(dd.Send_Text_Msg(content="测试钉钉",atMobiles=["13161365667"]))'''
+    print(dd.Send_Text_Msg(content="测试钉钉",atMobiles=["13161"]))'''
 def sign(secret,timestamp): 
     secret_enc = secret.encode('utf-8')
     string_to_sign = '{}\n{}'.format(timestamp, secret)
